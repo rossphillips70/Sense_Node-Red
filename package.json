@@ -1,0 +1,33 @@
+{
+  "name": "sense-energy-node",
+  "version": "1.0.6",
+  "description": "Sense Energy Monitor API for NodeJS (unofficial)",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "node-red": {
+  "nodes": {
+    "unofficial-sense": "sense.js"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/brbeaird/sense-energy-node"
+  },
+
+  "keywords": [
+    "sense",
+    "energy",
+    "api",
+    "home",
+    "monitor",
+    "sense"
+  ],
+  "author": "Brian Beaird & Brandon Martin",
+  "license": "MIT",
+  "dependencies": {
+    "node-fetch": "^2.1.2",
+    "ws": "^6.2.1"
+  }
+}
